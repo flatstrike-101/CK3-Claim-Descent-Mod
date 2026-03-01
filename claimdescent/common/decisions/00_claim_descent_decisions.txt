@@ -1,0 +1,36 @@
+claim_descent_of_xiongnu_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_family_tree.dds"
+    }
+    desc = claim_descent_of_xiongnu_decision_desc
+    selection_tooltip = claim_descent_of_xiongnu_decision_tooltip
+    decision_group_type = major
+
+    ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
+
+    is_shown = {
+        is_ruler = yes
+        is_playable_character = yes
+        highest_held_title_tier >= tier_duchy
+        culture = {
+	        has_cultural_pillar = heritage_mongolic
+        }
+    }
+
+    is_valid = {
+		prestige_level >= max_prestige_level
+		highest_held_title_tier >= tier_kingdom
+        NOT = { dynasty = { has_dynasty_flag = claimed_xiongnu_descent } }
+	}
+
+    effect = {
+
+    }
+}

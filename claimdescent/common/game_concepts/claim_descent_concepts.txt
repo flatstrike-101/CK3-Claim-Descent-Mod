@@ -1,0 +1,9 @@
+modu_chanyu = {
+    name = modu_chanyu
+    desc = modu_chanyu_desc
+}
+
+chanyu = {
+    name = chanyu
+    desc = chanyu_desc
+}
