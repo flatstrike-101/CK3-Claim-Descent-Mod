@@ -5,6 +5,9 @@ claim_descent_of_xiongnu_decision = {
     desc = claim_descent_of_xiongnu_decision_desc
     selection_tooltip = claim_descent_of_xiongnu_decision_tooltip
     decision_group_type = major
+    cost = {
+        prestige = 1500
+    }
 
     ai_check_interval_by_tier = {
 		barony = 0
@@ -16,21 +19,41 @@ claim_descent_of_xiongnu_decision = {
 	}
 
     is_shown = {
+        NOT = { claimed_xiongnu_descent }
         is_ruler = yes
         is_playable_character = yes
         highest_held_title_tier >= tier_duchy
         culture = {
-	        has_cultural_pillar = heritage_mongolic
+            OR = {
+                has_cultural_pillar = heritage_mongolic
+                has_cultural_pillar = heritage_turkic
+            }
         }
     }
 
     is_valid = {
-		prestige_level >= max_prestige_level
+		prestige_level >= 4
 		highest_held_title_tier >= tier_kingdom
-        NOT = { dynasty = { has_dynasty_flag = claimed_xiongnu_descent } }
 	}
 
-    effect = {
+    is_valid_showing_failures_only = {
+        is_landed = yes
+        is_capable_adult = yes
+        is_imprisoned = no
+        top_liege = this
+        is_at_war = no
+    }
 
+    effect = {
+        dynasty = {
+            every_dynasty_member = {
+                limit = { is_alive = yes }
+                add_trait = trait:blood_of_the_xiongnu
+                set_global_variable = {
+	                name = claimed_xiongnu_descent
+	                value = yes
+                } 
+            }
+        }   
     }
 }

@@ -7,3 +7,8 @@ chanyu = {
     name = chanyu
     desc = chanyu_desc
 }
+
+xiongnu = {
+    name = xiongnu
+    desc = xiongnu_desc
+}
