@@ -57,27 +57,3 @@
         }
     }
 }
-
-challenge_the_khagan_decision = {
-    picture = {
-        reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_opening.dds"
-    }
-    desc = challenge_the_khagan_decision_desc
-    selection_tooltip = challenge_the_khagan_decision_tooltip
-    decision_group_type = realm
-    cost = {
-        prestige = 2000
-        piety = 1500
-    }
-
-    is_shown = {
-        liege = {
-            highest_held_title_tier >= tier_kingdom
-        }
-        is_independent_ruler = no
-    }
-
-    is_valid = {
-        max_military_strength >= liege.max_military_strength
-    }
-}
