@@ -1,3 +1,7 @@
 ﻿l_english:
  trait_blood_of_the_xiongnu:0 "Blood of the Xiongnu"
- trait_blood_of_the_xiongnu_desc:0 "[ROOT.Char.GetName] carries the blood of the ancient [xiongnu|E]."
+ trait_blood_of_the_xiongnu_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries the blood of the ancient [xiongnu|E]."
+
+ trait_ali_descent:0 "Alid"
+ trait_alawiyya:0 "Alawiyya" # Female version of Alid
+ trait_ali_descent_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries the blood of [GetScriptedCharacterByHistoryID( '33911' ).GetFullName], the last Caliph of the Rashidun Caliphate and first Imam of the Shia, Ya Ali! "

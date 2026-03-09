@@ -1,0 +1,3 @@
+alid_respected_by_shia_opinion = {
+    opinion = 10
+}

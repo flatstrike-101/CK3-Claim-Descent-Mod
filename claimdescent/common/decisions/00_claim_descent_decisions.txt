@@ -1,4 +1,4 @@
-claim_descent_of_xiongnu_decision = {
+﻿claim_descent_of_xiongnu_decision = {
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_family_tree.dds"
     }
@@ -19,8 +19,11 @@ claim_descent_of_xiongnu_decision = {
 	}
 
     is_shown = {
-        NOT = { claimed_xiongnu_descent }
+        NOT = {
+            dynasty = { has_variable = claimed_xiongnu_descent }
+        }
         is_ruler = yes
+        government_has_flag = government_is_nomadic
         is_playable_character = yes
         highest_held_title_tier >= tier_duchy
         culture = {
@@ -46,14 +49,35 @@ claim_descent_of_xiongnu_decision = {
 
     effect = {
         dynasty = {
+            set_variable = claimed_xiongnu_descent
             every_dynasty_member = {
                 limit = { is_alive = yes }
                 add_trait = trait:blood_of_the_xiongnu
-                set_global_variable = {
-	                name = claimed_xiongnu_descent
-	                value = yes
-                } 
             }
-        }   
+        }
+    }
+}
+
+challenge_the_khagan_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_opening.dds"
+    }
+    desc = challenge_the_khagan_decision_desc
+    selection_tooltip = challenge_the_khagan_decision_tooltip
+    decision_group_type = realm
+    cost = {
+        prestige = 2000
+        piety = 1500
+    }
+
+    is_shown = {
+        liege = {
+            highest_held_title_tier >= tier_kingdom
+        }
+        is_independent_ruler = no
+    }
+
+    is_valid = {
+        max_military_strength >= liege.max_military_strength
     }
 }

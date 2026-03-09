@@ -2,7 +2,7 @@ blood_of_the_xiongnu = {
     icon = blood_of_chanyu.dds
     desc = trait_blood_of_the_xiongnu_desc
 
-    ruler_designer_cost = 25
+    ruler_designer_cost = 50
     category = fame
     genetic = yes
     parent_inheritance_sex = male
@@ -13,4 +13,39 @@ blood_of_the_xiongnu = {
     same_culture_opinion = 5
     vassal_herd_contribution_mult = 0.1
 	vassal_levy_contribution_mult = 0.1
+}
+
+ali_descent = {
+    icon = blood_of_ali.dds
+
+    name = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = trait_ali_descent
+            }
+            triggered_desc = {
+                trigger = { is_female = yes }
+                desc = trait_alawiyya
+            }
+            desc = trait_ali_descent
+        }
+    }
+
+    desc = trait_ali_descent_desc
+
+    ruler_designer_cost = 25
+    category = fame
+    genetic = yes
+    parent_inheritance_sex = male
+    inherit_chance = 1.0
+
+    # +10 opinion of all Shia
+    triggered_opinion = {
+        parameter = hostility_override_muhammad_succession_shia_doctrine
+        opinion_modifier = alid_respected_by_shia_opinion
+    }
+
+    flag = initial_legitimacy_boost
+
 }

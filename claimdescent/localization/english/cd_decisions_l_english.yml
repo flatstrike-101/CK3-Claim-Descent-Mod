@@ -3,3 +3,6 @@
  claim_descent_of_xiongnu_decision_tooltip:0 "Make the people believe you and your family belong to the ancient Xiongnu line of nomads, legitimizing your rule over them."
  claim_descent_of_xiongnu_decision_desc:0 "The Xiongnu were a mighty confederation of nomadic tribes that once dominated the steppes of Central Asia. They were known for waging war on the Qin & Han Dynasties, leading the Chinese to expand their Great Wall. [ROOT.Char.GetName] claims that [ROOT.Char.GetSheHe] feels the blood of the great [modu_chanyu|E], the first [chanyu,'Chanyu'|E] of the Xiongnu, flowing through [ROOT.Char.GetHerHis] veins. [ROOT.Char.GetName] claims that [ROOT.Char.GetHerHis] ancient ancestry has allowed [ROOT.Char.GetHerHim] to accomplish what [ROOT.Char.GetSheHe] has." 
  claim_descent_of_xiongnu_decision_confirm:0 "Proclaim your Xiongnu ancestry"
+
+ challenge_the_khagan_decision:0 "Challenge the [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"
+ challenge_the_khagan_decision_tooltip:0 "The "
