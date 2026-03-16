@@ -27,10 +27,7 @@
         is_playable_character = yes
         highest_held_title_tier >= tier_duchy
         culture = {
-            OR = {
-                has_cultural_pillar = heritage_mongolic
-                has_cultural_pillar = heritage_turkic
-            }
+            has_cultural_pillar = heritage_mongolic
         }
     }
 

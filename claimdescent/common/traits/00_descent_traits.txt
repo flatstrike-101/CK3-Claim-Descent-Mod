@@ -47,5 +47,4 @@ ali_descent = {
     }
 
     flag = initial_legitimacy_boost
-
 }
