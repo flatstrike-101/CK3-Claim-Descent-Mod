@@ -1,0 +1,479 @@
+### Mongol ###
+# Feudal / Clan / Tribal / Nomadic
+count_feudal_male_mongol = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_mongol = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_mongol = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_mongol = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_buryat = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_buryat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_buryat = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_buryat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_buryat = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_buryat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_buryat = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_buryat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_oirat = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_oirat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_oirat = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_oirat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_oirat = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_oirat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_oirat = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_oirat }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_naiman = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_naiman }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_naiman = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_naiman }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_naiman = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_naiman }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_naiman = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_naiman }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_kerait = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_kerait }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_kerait = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_kerait }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_kerait = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_kerait }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_kerait = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_kerait }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_khitan = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_khitan = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_khitan = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_khitan = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_shiwei = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_shiwei = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_shiwei = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_shiwei = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_male_tuyuhun = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_tuyuhun }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_tuyuhun = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_tuyuhun }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_tuyuhun = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_tuyuhun }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_tuyuhun = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_tuyuhun }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+#king_tributary_male_under_mongol = {
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = kingdom
+#	priority = 48
+#	governments = { feudal_government clan_government tribal_government administrative_government nomad_government meritocratic_government }
+#	name_lists = { name_list_mongol }
+#	flavourization_rules = { 
+#		is_tributary_of_suzerain_or_above = yes
+#		top_liege = {
+#			culture = { has_cultural_pillar = heritage_mongolic }
+#		}
+#	}
+#}
+
+#king_tributary_female_under_mongol = {
+#	type = character
+#	gender = female
+#	special = holder
+#	tier = kingdom
+#	priority = 48
+#	governments = { feudal_government clan_government tribal_government administrative_government nomad_government meritocratic_government }
+#	name_lists = { name_list_mongol }
+#	flavourization_rules = { 
+#		is_tributary_of_suzerain_or_above = yes
+#		top_liege = yes
+#	}
+#}
+
+#emperor_tributary_male_under_mongol = {
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = kingdom
+#	priority = 108
+#	governments = { feudal_government clan_government tribal_government administrative_government nomad_government meritocratic_government }
+#	name_lists = { name_list_mongol }
+#	flavourization_rules = { 
+#		is_tributary_of_suzerain_or_above = yes
+#		top_liege = {
+#			culture = { has_cultural_pillar = heritage_mongolic }
+#		}
+#	}
+#}
+
+#emperor_tributary_female_under_mongol = {
+#	type = character
+#	gender = female
+#	special = holder
+#	tier = kingdom
+#	priority = 108
+#	governments = { feudal_government clan_government tribal_government administrative_government nomad_government meritocratic_government }
+#	name_lists = { name_list_mongol }
+#	flavourization_rules = { 
+#		is_tributary_of_suzerain_or_above = yes
+#		top_liege = {
+#			culture = { has_cultural_pillar = heritage_mongolic }
+#		}
+#	}
+#}

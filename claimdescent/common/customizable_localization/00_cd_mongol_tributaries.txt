@@ -1,0 +1,97 @@
+KingTributaryOfMongols = {
+    type = character
+    text = {
+        trigger = {
+            overlord = {
+                culture = { has_cultural_pillar = heritage_mongolic }
+            }
+        }
+        localization_key = king_mongol_tributary
+    }
+    text = {
+        fallback = yes
+        localization_key = king_feudal_male_original
+    }
+}
+
+
+EmperorTributaryOfMongols = {
+    type = character
+    text = {
+        trigger = {
+            overlord = {
+                culture = { has_cultural_pillar = heritage_mongolic }
+            }
+        }
+        localization_key = emperor_mongol_tributary
+    }
+    text = {
+        fallback = yes
+        localization_key = emperor_feudal_male_original
+    }
+}
+
+KoreanKingTributaryOfMongols = {
+    type = character
+    text = {
+        trigger = {
+            overlord = {
+                culture = { has_cultural_pillar = heritage_mongolic }
+            }
+        }
+        localization_key = king_mongol_tributary
+    }
+    text = {
+        fallback = yes
+        localization_key = king_male_korean_original
+    }
+}
+
+
+EmperorKoreanTributaryOfMongols = {
+    type = character
+    text = {
+        trigger = {
+            overlord = {
+                culture = { has_cultural_pillar = heritage_mongolic }
+            }
+        }
+        localization_key = emperor_mongol_tributary
+    }
+    text = {
+        fallback = yes
+        localization_key = emperor_male_korean_original
+    }
+}
+
+BalhaeKingTributaryOfMongols = {
+    type = character
+    text = {
+        trigger = {
+            overlord = {
+                culture = { has_cultural_pillar = heritage_mongolic }
+            }
+        }
+        localization_key = king_mongol_tributary
+    }
+    text = {
+        fallback = yes
+        localization_key = king_male_balhae_original
+    }
+}
+
+JapaneseKingTributaryOfMongols = {
+    type = character
+    text = {
+        trigger = {
+            overlord = {
+                culture = { has_cultural_pillar = heritage_mongolic }
+            }
+        }
+        localization_key = king_mongol_tributary
+    }
+    text = {
+        fallback = yes
+        localization_key = king_male_japanese_original
+    }
+}

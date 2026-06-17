@@ -1,0 +1,97 @@
+﻿l_english:
+  #Mongolic Cultures Flavor
+ baron_feudal_male_mongol:0 "Taishi"
+ baron_feudal_female_mongol:0 "Taishi"
+ count_feudal_male_mongol:0 "Darga"
+ count_feudal_female_mongol:0 "Darga"
+ duke_feudal_male_mongol:0 "Noyan"
+ duke_feudal_female_mongol:0 "Noyan"
+
+ baron_feudal_male_buryat:0 "Taishi"
+ baron_feudal_female_buryat:0 "Taishi"
+ count_feudal_male_buryat:0 "Darga"
+ count_feudal_female_buryat:0 "Darga"
+ duke_feudal_male_buryat:0 "Noyan"
+ duke_feudal_female_buryat:0 "Noyan"
+
+ baron_feudal_male_oirat:0 "Taishi"
+ baron_feudal_female_oirat:0 "Taishi"
+ count_feudal_male_oirat:0 "Darga"
+ count_feudal_female_oirat:0 "Darga"
+ duke_feudal_male_oirat:0 "Noyan"
+ duke_feudal_female_oirat:0 "Noyan"
+
+ baron_feudal_male_naiman:0 "Taishi"
+ baron_feudal_female_naiman:0 "Taishi"
+ count_feudal_male_naiman:0 "Darga"
+ count_feudal_female_naiman:0 "Darga"
+ duke_feudal_male_naiman:0 "Noyan"
+ duke_feudal_female_naiman:0 "Noyan"
+
+ baron_feudal_male_kerait:0 "Taishi"
+ baron_feudal_female_kerait:0 "Taishi"
+ count_feudal_male_kerait:0 "Darga"
+ count_feudal_female_kerait:0 "Darga"
+ duke_feudal_male_kerait:0 "Noyan"
+ duke_feudal_female_kerait:0 "Noyan"
+
+ baron_feudal_male_khitan:0 "Taishi"
+ baron_feudal_female_khitan:0 "Taishi"
+ count_feudal_male_khitan:0 "Darga"
+ count_feudal_female_khitan:0 "Darga"
+ duke_feudal_male_khitan:0 "Noyan"
+ duke_feudal_female_khitan:0 "Noyan"
+
+ baron_feudal_male_shiwei:0 "Taishi"
+ baron_feudal_female_shiwei:0 "Taishi"
+ count_feudal_male_shiwei:0 "Darga"
+ count_feudal_female_shiwei:0 "Darga"
+ duke_feudal_male_shiwei:0 "Noyan"
+ duke_feudal_female_shiwei:0 "Noyan"
+
+ baron_feudal_male_tuyuhun:0 "Taishi"
+ baron_feudal_female_tuyuhun:0 "Taishi"
+ count_feudal_male_tuyuhun:0 "Darga"
+ count_feudal_female_tuyuhun:0 "Darga"
+ duke_feudal_male_tuyuhun:0 "Noyan"
+ duke_feudal_female_tuyuhun:0 "Noyan"
+
+  ### TRIPPY STUFF DO NOT TOUCH!!! ###
+
+  #Original Titles
+
+ king_feudal_male_original:0 "King"
+ emperor_feudal_male_original:0 "Emperor"
+ king_male_korean_original: "Gugwang"
+ emperor_male_korean_original: "$hegemon_male_korean$"
+ king_male_balhae_original: "Gadokbu"
+ king_male_japanese_original: "Tandai"
+
+ #New Tributary Titles
+
+ king_mongol_tributary:0 "Noyon"
+ emperor_mongol_tributary:0 "Noyon"
+
+ king_feudal_male:0 "[CHARACTER.Custom('KingTributaryOfMongols')]"
+ emperor_feudal_male:0 "[CHARACTER.Custom('EmperorTributaryOfMongols')]"
+
+ king_clan_male:0 "[CHARACTER.Custom('KingTributaryOfMongols')]"
+ emperor_clan_male:0 "[CHARACTER.Custom('EmperorTributaryOfMongols')]"
+
+ king_tribal_male:0 "[CHARACTER.Custom('KingTributaryOfMongols')]"
+ emperor_tribal_male:0 "[CHARACTER.Custom('EmperorTributaryOfMongols')]"
+
+ king_nomadic_male:0 "[CHARACTER.Custom('KingTributaryOfMongols')]"
+ emperor_nomadic_male:0 "[CHARACTER.Custom('EmperorTributaryOfMongols')]"
+
+ king_administrative_male:0 "[CHARACTER.Custom('KingTributaryOfMongols')]"
+ emperor_administrative_male:0 "[CHARACTER.Custom('EmperorTributaryOfMongols')]"
+
+  #Koreans, Balhae and Japanese Specialization Tributary Titles
+
+ king_male_korean: "[CHARACTER.Custom('KoreanKingTributaryOfMongols')]"
+ emperor_male_korean: "[CHARACTER.Custom('EmperorKoreanTributaryOfMongols')]"
+
+ king_male_balhae: "[CHARACTER.Custom('BalhaeKingTributaryOfMongols')]"
+
+ king_male_japanese: "[CHARACTER.Custom('JapaneseKingTributaryOfMongols')]"
