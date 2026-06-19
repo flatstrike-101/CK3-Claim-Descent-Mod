@@ -12,3 +12,13 @@ xiongnu = {
     name = xiongnu
     desc = xiongnu_desc
 }
+
+turkic_peoples = {
+    name = turkic_peoples
+    desc = turkic_peoples_desc
+}
+
+mongol_tribes = {
+    name = mongol_tribes
+    desc = mongol_tribes_desc
+}

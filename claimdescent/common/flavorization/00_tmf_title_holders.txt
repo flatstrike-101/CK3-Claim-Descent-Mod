@@ -1,0 +1,53 @@
+### Mongol ###
+# Feudal / Clan / Tribal / Nomadic
+count_feudal_male_mongolic = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait name_list_tuyuhun name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+count_feudal_female_mongolic = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait name_list_tuyuhun name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_male_mongolic = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait name_list_tuyuhun name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duke_feudal_female_mongolic = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government administrative_government nomad_government }
+	name_lists = { name_list_mongol name_list_buryat name_list_oirat name_list_naiman name_list_kerait name_list_tuyuhun name_list_khitan }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
